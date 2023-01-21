@@ -9,17 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18.0.0
-
-    - run: npm install
-    
-    - run: npm run build
-
-    - uses: nipunharjai/custom-github-actions/actions/action-1@v3
+    - uses: nipunharjai/custom-github-actions/actions/action-1@v4
       with:
         number: 10
 
