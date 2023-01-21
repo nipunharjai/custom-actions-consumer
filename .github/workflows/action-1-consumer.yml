@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: nipunharjai/custom-github-actions/actions/action-1@v5
+    - uses: nipunharjai/custom-github-actions/actions/action-1@v6
       with:
         number: 10
-    - uses: nipunharjai/custom-github-actions/actions/action-2@v5
+    - uses: nipunharjai/custom-github-actions/actions/action-2@v6
       with:
         name: Bhavya Harjae
