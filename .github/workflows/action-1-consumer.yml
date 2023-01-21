@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: nipunharjai/custom-github-actions/actions/action-1@v2
+    - uses: nipunharjai/custom-github-actions/actions/action-1@v3
       with:
         number: 10
 
